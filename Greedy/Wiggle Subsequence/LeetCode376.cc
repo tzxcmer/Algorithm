@@ -12,6 +12,6 @@ public:
             if(l * r <= 0) sum++;
             l = r;
         }
-        return sum+1;
+        return sum + 1;
     }
 };
